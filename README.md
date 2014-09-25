@@ -12,8 +12,10 @@ Cat cat1 = new Cat("Dima",1,1,1);
 Cat cat2 = new Cat("fii", 2, 2, 2);       
 Cat cat3 = new Cat("dii", 3, 3, 3);    
 }     
+
 public static class Cat 
-{          
+{     
+
 public static int count = 0;
 private String name;
 private int age;     
